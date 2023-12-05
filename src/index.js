@@ -96,7 +96,7 @@ app.get("/users/:name", async (req, res) => {
   }
 });
 
-/ Rota que lista um usuário pelo id
+// Rota que lista um usuário pelo id
 app.get("/user/:id", async (req, res) => {
   const userId = parseInt(req.params.id, 10);
 
